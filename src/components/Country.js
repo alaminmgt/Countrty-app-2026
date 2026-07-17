@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Country = ({country,onRemoveCountry}) => {
-    const {name,flag,capital,population,area} = country;
+    const {name,flag,capital} = country;
 
     const handleRemove = (name) => {
       onRemoveCountry(name);
